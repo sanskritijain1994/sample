@@ -1,0 +1,17 @@
+1.) Add a dropdown and a textbox with search button to search and display the product according to the attachment.
+
+2.) Add two dropdowns to sort and display a product based on the fields a product have as given in the attachment.
+
+3.) Take the details of a new product from the user as shown in the attachment and add it to the array after the second product. Use proper validations if 
+
+4.) Select product(s) from the list and their quantity and add them to a array then generate a billing invoice according to the attachment.
+
+5.) Add a checkbox with every product. User can select one or more products to delete from the list and display the remaining products after deletion.
+
+6.) Add one more column for quantity available for each of the product. It will be updated when a product is added to cart.
+
+8.) Inventory manager should be able to update the quantity of a products. Display the updated quantity.
+
+9.) Customer should be able to mark the rating for a product that should be visible in the rating column.
+
+10.) Filter and display the products with in a given price range.

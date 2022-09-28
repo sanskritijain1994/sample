@@ -1,0 +1,19 @@
+.tal{
+    padding: 5em;
+}
+.tal th{
+    padding-right: 3em;
+    padding-bottom: 1em;
+}
+select{
+    margin:1em;
+    padding:0.5em;
+}
+input{
+    margin:1em;
+    padding:0.5em;
+}
+button{
+    margin:1em;
+    padding:0.5em;
+}
