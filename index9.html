@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Display</title>
+    <style>
+        td{
+            width: 13em;
+            height: 2em;
+            align-items: center;
+            align-content: center;
+            padding-left: 1em;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>
+      <u>
+        Create a list that stores the products and their prices according to
+        their size/color. when user selects a product and its size/color show
+        the appropriate price. accordingly.</u>
+    </h2>
+
+    <table border="4">
+        <thead>
+            <td>Name</td>
+            <td>Size/Color</td>
+            <td>Price</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Duffle Bag</td>
+                <td><select name="size" id="size">
+                    <option value="selt">-Select-Size-</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">X-Large</option>
+                </select></td>
+                <td id="price"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>T-Shirts</td>
+                <td><select name="color" id="color">
+                    <option value="selt1">-Select-Color-</option>
+                    <option value="red">Red</option>
+                    <option value="black">Black</option>
+                    <option value="orange">Orange</option>
+                    <option value="blue">Blue</option>
+                </select></td>
+                <td id="price1"></td>
+            </tr>
+
+        </tbody>
+    </table>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="./script9.js"></script>
+</html>
